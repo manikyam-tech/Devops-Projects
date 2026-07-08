@@ -35,7 +35,7 @@ jobs:
 
       - name: Validate HTML structure
         run: |
-          echo "Checking index.html exists..."
+          echo "Checking index.html exist..."
           test -f source-code/index.html && echo "✅ index.html found" || (echo "❌ index.html missing" && exit 1)
 
           echo "Checking DOCTYPE declaration..."
